@@ -3,8 +3,6 @@ package com.todoListProject.Todo.List.Project.controller;
 import com.todoListProject.Todo.List.Project.entity.UserEntity;
 import com.todoListProject.Todo.List.Project.service.UserServices;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.http.HttpStatus;
-import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
