@@ -1,6 +1,4 @@
 package com.todoListProject.Todo.List.Project.service;
-
-
 import com.todoListProject.Todo.List.Project.entity.UserEntity;
 import com.todoListProject.Todo.List.Project.repository.UserRepository;
 import org.springframework.beans.factory.annotation.Autowired;

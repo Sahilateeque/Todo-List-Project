@@ -14,7 +14,7 @@ public class UserController {
     @Autowired
     private UserServices userServices;
 
-    @PostMapping
+    @PostMapping()
     public void createUser(@RequestBody UserEntity user){userServices.save(user);
     }
 
